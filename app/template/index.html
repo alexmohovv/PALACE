@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Hello World!</title>
+		<link rel="stylesheet" type="text/css" href="../css/index.css">
+		<link rel="stylesheet" type="text/css" href="../css/w3.css">
+	</head>
+
+	<body>
+		<div id="mainMenu" class="w3-bar">
+			<button id="file" class="w3-bar-item w3-button"></button>
+			<button id="settings"  class="w3-bar-item w3-button"></button>
+			<button id="about" class="w3-bar-item w3-button"></button>
+		</div>
+
+		<div id="secMenu" class="w3-container w3-animate-top">
+			<button id="openFile" class="w3-button"></button>
+			<div class="w3-dropdown-hover">
+				<button onclick="showFolders()" class="w3-button">folders</button>
+				<div id="folders" class="w3-dropdown-content w3-bar-block w3-border">
+					<a href="#" class="w3-bar-item w3-button">Link 1</a>
+				</div>
+			</div>
+
+			<div class="w3-dropdown-hover">
+				<button onclick="showFiles()" class="w3-button">files</button>
+				<div id="files" class="w3-dropdown-content w3-bar-block w3-border">
+					<a href="#" class="w3-bar-item w3-button">Link 1</a>
+				</div>
+			</div>
+			<button id="saveFile" class="w3-button"></button>
+		</div>
+		
+	</body>
+
+	<script language="javascript" type="text/javascript" src="../js/index.js"></script>
+</html>

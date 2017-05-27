@@ -1,0 +1,49 @@
+html {
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #303030;
+}
+
+div#mainMenu {
+    min-width: 800px;
+    min-height: 50px;
+    max-height: 50px;
+    padding: 0px;
+    margin: 0px;
+    background-color: #3e494b;
+}
+
+div#secMenu{
+    min-width: 800px;
+    min-height: 50px;
+    max-height: 50px;
+    padding: 0px;
+    margin: 0px;
+    background-color: #596466;
+}
+
+button#file, #settings, #about{
+    min-width: 50px;
+    min-height: 50px;
+    max-width: 50px; 
+    max-height: 50px;
+    border-width: 0 0 0 0;
+    background-color: #3e494b;
+    display: block;
+    float: left;
+}
+
+button#openFile, #saveFile{
+    min-width: 50px;
+    min-height: 50px;
+    max-width: 50px; 
+    max-height: 50px;
+    border-width: 0 0 0 0;
+    background-color: #596466;
+}
