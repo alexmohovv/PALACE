@@ -2,67 +2,30 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>Hello World!</title>
 		<link rel="stylesheet" type="text/css" href="../css/index.css">
 		<link rel="stylesheet" type="text/css" href="../css/w3.css">
 	</head>
 
 	<body>
-		<div class="w3-top">
-			<div class="w3-bar w3-black w3-card-2">
-				<a href="#" class="w3-bar-item w3-button w3-padding-large">1</a>
-				<a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">2</a>
-				<a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">3</a>
-				<a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">4</a>
+		<div class="w3-row">
+			<div id="firstPanel" class="w3-container">
+				<div class="w3-bar w3-black w3-container w3-cell">
+					<a id="file" onclick="showFileMenu()" class="w3-bar-item w3-button">1</a>
+					<a id="settings" class="w3-bar-item w3-button">2</a>
+					<a id="about" class="w3-bar-item w3-button">3</a>
 				</div>
-				<a class="w3-padding-large w3-hover-red w3-hide-small w3-right"></a>
+				<div class="w3-bar w3-black w3-container w3-cell">
+					<a id="close" class="w3-bar-item w3-button w3-round-xxlarge w3-deep-orange">x</a>
+				</div>
 			</div>
+		</div>
+		<div class="w3-row">
+			<div id="menuFiles" class="w3-hide w3-red w3-cell-row">
+				<p>SAlam POPOlam</p>
+			</div>
+		</div>
 		</div>
 	</body>
 
 	<script language="javascript" type="text/javascript" src="../js/index.js"></script>
 </html>
-
-
-<!--
-
-
-
-
-
-
-
-
-
-
-
-		<div id="mainMenu" class="w3-container">
-			<div id="mainMenuBtns" class="w3-bar">
-				<button id="file" class="w3-bar-item w3-button"></button>
-				<button id="settings"  class="w3-bar-item w3-button"></button>
-				<button id="about" class="w3-bar-item w3-button"></button>
-			</div>
-			<div class="w3-container">
-				<p>Folder File</p>
-			</div>
-		</div>
-
-		<div id="secMenu" class="w3-container w3-animate-top">
-			<button id="openFile" class="w3-button"></button>
-			<div class="w3-dropdown-hover">
-				<button onclick="showFolders()" class="w3-button">folders</button>
-				<div id="folders" class="w3-dropdown-content w3-bar-block w3-border">
-					<a href="#" class="w3-bar-item w3-button">Link 1</a>
-				</div>
-			</div>
-
-			<div class="w3-dropdown-hover">
-				<button onclick="showFiles()" class="w3-button">files</button>
-				<div id="files" class="w3-dropdown-content w3-bar-block w3-border">
-					<a href="#" class="w3-bar-item w3-button">Link 1</a>
-				</div>
-			</div>
-			<button id="saveFile" class="w3-button"></button>
-		</div>
-		
-	-->

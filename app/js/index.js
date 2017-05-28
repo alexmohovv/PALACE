@@ -1,15 +1,10 @@
-function showFolders() {
-    var x = document.getElementById("folders");
-    if (x.className.indexOf("w3-show") == -1)
+function showFileMenu(){
+    var x = document.getElementById("menuFiles");
+    if (x.className.indexOf("w3-show") == -1) {
         x.className += " w3-show";
-    else
+        console.log("ura")
+    } else {
         x.className = x.className.replace(" w3-show", "");
+        console.log("damn")
     }
-
-function showFiles() {
-    var x = document.getElementById("files");
-    if (x.className.indexOf("w3-show") == -1)
-        x.className += " w3-show";
-    else
-        x.className = x.className.replace(" w3-show", "");
-    }
+}
