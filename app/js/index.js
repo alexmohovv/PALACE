@@ -1,10 +1,10 @@
-function showFileMenu(){
-    var x = document.getElementById("menuFiles");
-    if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-        console.log("ura")
+var $ = require('jQuery');
+/*
+$('.file').click(function(){
+    if($(this).hasClass('active')){
+        $(this).removeClass('active');
     } else {
-        x.className = x.className.replace(" w3-show", "");
-        console.log("damn")
+        $(this).addClass('active')
     }
-}
+});
+*/

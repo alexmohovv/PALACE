@@ -1,26 +1,61 @@
 html {
-  margin: 0px;
-  padding: 0px;
-  overflow: hidden;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
 }
 
 body {
-  margin: 0px;
-  padding: 0px;
-  background-color: #303030;
+	margin: 0px;
+	padding: 0px;
+	background-color: #2f363d;
 }
 
-div#firstPanel, #menuFiles {
-    min-width: 800px;
-    min-height: 50px;
-    max-height: 50px;
-    padding: 0px;
-    margin: 0px;
+.headPanel {
+	background-color: #070c0a;
+	padding-left: 80px;
+	padding-right: 40px;
+	min-width: 800px;
+	min-height: 40px;
+	max-height: 40px;
+	margin: 0px;
 }
 
-a#file, #settings, #about, #close{
-    min-width: 50px;
-    min-height: 50px;
-    max-width: 50px; 
-    max-height: 50px;
+.menuFiles, .menuChains {
+	background-color: #222628;
+	min-width: 800px;
+	min-height: 40px;
+	max-height: 40px;
+	margin: 0px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.file, .settings, .about, .chains {
+	background-color: #070c0a;
+	min-width: 40px;
+	min-height: 40px;
+	max-width: 40px; 
+	max-height: 40px;
+	text-align: center;
+	overflow: hidden;
+	border: none;
+	border-width: 0 0 0 0;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	float: left;
+	border-radius: 0px;
+	transition-duration: 0.4s;
+	color: white;
+}
+
+.file:hover,  .chains:hover, .settings:hover, .about:hover {
+	background-color: #222628;
+}
+
+.file:focus, .chains:focus, .settings:focus, .about:focus {
+	outline:0;
+}
+
+.file.active{
+	background-color: #222628;
 }
