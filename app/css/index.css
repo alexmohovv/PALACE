@@ -59,3 +59,40 @@ body {
 .file.active{
 	background-color: #222628;
 }
+
+.openFile {
+	background-color: #222628;
+	min-width: 40px;
+	min-height: 40px;
+	max-width: 40px; 
+	max-height: 40px;
+	text-align: center;
+	overflow: hidden;
+	border: none;
+	border-width: 0 0 0 0;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	float: left;
+	border-radius: 0px;
+	transition-duration: 0.4s;
+	color: white;
+}
+
+progress {
+	position: fixed;
+  	left: 0px;
+  	top: 80px;
+	border: 0px;
+	min-height: 2px;
+	max-height: 2px;
+	min-width: 800px;
+	width: 100%;
+}
+
+progress::-webkit-progress-bar {
+  	background-color: transparent;
+}
+
+progress::-webkit-progress-value {
+  	background-color: #7859a6;
+}
