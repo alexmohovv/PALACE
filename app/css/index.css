@@ -30,6 +30,10 @@ body {
 	padding-right: 40px;
 }
 
+.menuChains {
+	display: none;
+}
+
 .file, .settings, .about, .chains {
 	background-color: #070c0a;
 	min-width: 40px;
@@ -56,7 +60,7 @@ body {
 	outline:0;
 }
 
-.file.active{
+.active{
 	background-color: #222628;
 }
 
