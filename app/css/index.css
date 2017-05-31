@@ -20,8 +20,43 @@ body {
 	margin: 0px;
 }
 
+.close, .min, .max {
+	min-width: 15px;
+	min-height: 15px;
+	max-width: 15px; 
+	max-height: 15px;
+	background:    	#2f3437;
+	border-radius: 100%;
+	text-align: center;
+	position: absolute;
+    top: 12.5px;
+	padding: 0 0 0 0;
+	border-width: 0 0 0 0;
+	transition-duration: 0.3s;
+}
+
+.close {	
+    right: 12.5px;
+}
+
+.min {
+    right: 35px;
+}
+
+.max {
+	right: 57.5px;
+}
+
+.close:hover {
+	background-color:#f23b0d;
+}
+
+.min:hover, .max:hover {
+	background-color: white;
+}
+
 .menuFiles, .menuChains {
-	background-color: #222628;
+	background-color: #2f3437;
 	min-width: 800px;
 	min-height: 40px;
 	max-height: 40px;
@@ -48,12 +83,12 @@ body {
 	letter-spacing: 2px;
 	float: left;
 	border-radius: 0px;
-	transition-duration: 0.4s;
+	transition-duration: 0.5s;
 	color: white;
 }
 
 .file:hover,  .chains:hover, .settings:hover, .about:hover {
-	background-color: #222628;
+	background-color: #2f3437;
 }
 
 button:focus {
@@ -61,11 +96,11 @@ button:focus {
 }
 
 .active{
-	background-color: #222628;
+	background-color: #2f3437;
 }
 
 .openFile {
-	background-color: #222628;
+	background-color: #2f3437;
 	min-width: 40px;
 	min-height: 40px;
 	max-width: 40px; 
