@@ -19,4 +19,12 @@ $(function(){
     })
 })
 
+$(function(){
+    $("progress").val("15");
+})
 
+$(function(){
+    $("button.close").click(function(){
+        window.close();
+    })
+})
